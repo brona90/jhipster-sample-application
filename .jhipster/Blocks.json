@@ -1,0 +1,23 @@
+{
+    "name": "Blocks",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "block",
+            "otherEntityRelationshipName": "blocks",
+            "relationshipName": "block"
+        }
+    ],
+    "changelogDate": "20200320034400",
+    "entityTableName": "blocks",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

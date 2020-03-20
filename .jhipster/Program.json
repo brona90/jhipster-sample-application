@@ -1,0 +1,48 @@
+{
+    "name": "Program",
+    "fields": [
+        {
+            "fieldName": "programType",
+            "fieldType": "ProgramType",
+            "fieldValues": "COMPETITOR,DOMINATE,APPLIED_POWER",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "isActive",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "blocks",
+            "otherEntityRelationshipName": "program",
+            "relationshipName": "blocks",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200320034000",
+    "entityTableName": "program",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

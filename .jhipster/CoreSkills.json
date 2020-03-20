@@ -1,0 +1,23 @@
+{
+    "name": "CoreSkills",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "coreSkill",
+            "otherEntityRelationshipName": "coreSkills",
+            "relationshipName": "coreSkill"
+        }
+    ],
+    "changelogDate": "20200320034100",
+    "entityTableName": "core_skills",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

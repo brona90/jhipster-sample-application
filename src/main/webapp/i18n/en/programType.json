@@ -1,0 +1,10 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "ProgramType": {
+      "null": "",
+      "COMPETITOR": "COMPETITOR",
+      "DOMINATE": "DOMINATE",
+      "APPLIED_POWER": "APPLIED_POWER"
+    }
+  }
+}

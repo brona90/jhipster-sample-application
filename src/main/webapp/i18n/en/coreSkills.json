@@ -1,0 +1,23 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "coreSkills": {
+      "home": {
+        "title": "Core Skills",
+        "createLabel": "Create a new Core Skills",
+        "createOrEditLabel": "Create or edit a Core Skills",
+        "search": "Search for Core Skills",
+        "notFound": "No Core Skills found"
+      },
+      "created": "A new Core Skills is created with identifier {{ param }}",
+      "updated": "A Core Skills is updated with identifier {{ param }}",
+      "deleted": "A Core Skills is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Core Skills {{ id }}?"
+      },
+      "detail": {
+        "title": "Core Skills"
+      },
+      "coreSkill": "Core Skill"
+    }
+  }
+}

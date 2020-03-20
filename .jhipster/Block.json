@@ -1,0 +1,34 @@
+{
+    "name": "Block",
+    "fields": [
+        {
+            "fieldName": "isInProgram",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "blocks",
+            "otherEntityRelationshipName": "block"
+        }
+    ],
+    "changelogDate": "20200320034300",
+    "entityTableName": "block",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

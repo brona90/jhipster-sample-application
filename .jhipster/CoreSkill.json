@@ -1,0 +1,42 @@
+{
+    "name": "CoreSkill",
+    "fields": [
+        {
+            "fieldName": "coreSkillType",
+            "fieldType": "CoreSkillType",
+            "fieldValues": "DOUBLE,RINGMU,BARMU,CTBPULL,TOESTB,HSPU,HSWALKS,PISTOLS",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ability",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "perscription",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "coreSkills",
+            "otherEntityRelationshipName": "coreSkill"
+        }
+    ],
+    "changelogDate": "20200320034200",
+    "entityTableName": "core_skill",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

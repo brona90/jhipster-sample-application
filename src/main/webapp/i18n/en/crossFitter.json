@@ -1,0 +1,27 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "crossFitter": {
+      "home": {
+        "title": "Cross Fitters",
+        "createLabel": "Create a new Cross Fitter",
+        "createOrEditLabel": "Create or edit a Cross Fitter",
+        "search": "Search for Cross Fitter",
+        "notFound": "No Cross Fitters found"
+      },
+      "created": "A new Cross Fitter is created with identifier {{ param }}",
+      "updated": "A Cross Fitter is updated with identifier {{ param }}",
+      "deleted": "A Cross Fitter is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cross Fitter {{ id }}?"
+      },
+      "detail": {
+        "title": "Cross Fitter"
+      },
+      "geneticSex": "Genetic Sex",
+      "genderID": "Gender ID",
+      "photo": "Photo",
+      "program": "Program",
+      "coreSkills": "Core Skills"
+    }
+  }
+}

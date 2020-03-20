@@ -1,0 +1,51 @@
+{
+    "name": "CrossFitter",
+    "fields": [
+        {
+            "fieldName": "geneticSex",
+            "fieldType": "GeneticSex",
+            "fieldValues": "MALE,FEMALE",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "genderID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "photo",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "program",
+            "otherEntityRelationshipName": "crossFitter",
+            "relationshipName": "program",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "coreSkills",
+            "otherEntityRelationshipName": "crossFitter",
+            "relationshipName": "coreSkills",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20200320033900",
+    "entityTableName": "cross_fitter",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

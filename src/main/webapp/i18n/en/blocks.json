@@ -1,0 +1,23 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "blocks": {
+      "home": {
+        "title": "Blocks",
+        "createLabel": "Create a new Blocks",
+        "createOrEditLabel": "Create or edit a Blocks",
+        "search": "Search for Blocks",
+        "notFound": "No Blocks found"
+      },
+      "created": "A new Blocks is created with identifier {{ param }}",
+      "updated": "A Blocks is updated with identifier {{ param }}",
+      "deleted": "A Blocks is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Blocks {{ id }}?"
+      },
+      "detail": {
+        "title": "Blocks"
+      },
+      "block": "Block"
+    }
+  }
+}
