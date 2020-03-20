@@ -1,0 +1,63 @@
+entity CrossFitter {
+    geneticSex GeneticSex required
+    genderID String
+    photo Blob
+}
+
+enum GeneticSex {
+	MALE,
+    FEMALE
+}
+
+entity Program {
+	programType ProgramType required
+    startDate LocalDate required
+    isActive Boolean required
+}
+
+enum ProgramType {
+	COMPETITOR, 
+    DOMINATE, 
+    APPLIED_POWER
+}
+
+entity CoreSkills {
+
+}
+
+entity CoreSkill {
+	coreSkillType CoreSkillType required
+    ability Int required
+    perscription String
+}
+
+enum CoreSkillType {
+	DOUBLE, 
+    RINGMU, 
+    BARMU, 
+    CTBPULL, 
+    TOESTB, 
+    HSPU, 
+    HSWALKS,
+    PISTOLS
+}
+
+entity Block {
+    isInProgram Boolean required, 
+    name String    
+}
+
+entity Blocks {
+
+}
+
+relationship OneToOne {
+	CrossFitter{program} to Program
+    CrossFitter{coreSkills} to CoreSkills
+    Program{blocks} to Blocks
+}
+
+relationship ManyToOne {
+	Block to Blocks{block},
+    CoreSkill to CoreSkills{coreSkill},    
+}
