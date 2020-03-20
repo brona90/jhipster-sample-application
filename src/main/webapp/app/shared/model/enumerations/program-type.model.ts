@@ -1,0 +1,5 @@
+export const enum ProgramType {
+  COMPETITOR = 'COMPETITOR',
+  DOMINATE = 'DOMINATE',
+  APPLIED_POWER = 'APPLIED_POWER'
+}

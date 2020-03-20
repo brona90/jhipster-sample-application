@@ -1,0 +1,9 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "GeneticSex": {
+      "null": "",
+      "MALE": "MALE",
+      "FEMALE": "FEMALE"
+    }
+  }
+}
